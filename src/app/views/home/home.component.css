@@ -46,6 +46,7 @@ header {
 }
 
 /* BANNER */
+
 .banner {
     /* background-image: url(../img/banner.png); */
     height: 290px;
@@ -144,61 +145,6 @@ header {
 
 .clientes1 {
     padding-right: 150px;
-}
-
-/* RODAPE */
-
-.footer {
-    background-color: #098D97;
-    height: 160px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
-}
-
-.atendimento {
-    padding-top: 40px;
-    padding-left: 100px;
-    color: #fff;
-    font-family: "Arial";
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-
-.email {
-    padding-top: 20px;
-    color: #fff;
-    font-family: "Arial";
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-
-.redes {
-    padding-top: 20px;
-    width: 300px;  
-    color: #fff;
-    font-family: "Arial";
-    font-weight: bold;
-    text-transform: uppercase;  
-    font-size: 20px;
-}
-
-.redes-sociais {
-    list-style-type: none;
-    display: flex;
-    padding-top: 0px;
-    padding-left: 0px;
-}
-
-.redes-sociais li {
-    padding-left: 20px;
-}
-
-.redes h3 {
-    padding-left: 70px;
 }
 
 

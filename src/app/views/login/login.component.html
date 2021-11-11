@@ -1,0 +1,28 @@
+
+<!-- BANNER-BG -->
+<div class="banner">
+    <div class="container-grid itens-banner">
+        <div class="texto-banner">
+            <h1>Venha montar seu computador na melhor loja!</h1>
+        </div>
+    </div>
+</div>
+ 
+<!-- LOGIN -->
+<div class="login-cadastro">
+    <form #userForm="ngForm" (ngSubmit)="onSubmit()">
+        <h2>Cadastre-se</h2>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" [(ngModel)]="userModel.email">
+    
+        <label for="senha">Senha: </label>
+        <input type="password" id="senha" name="senha" [(ngModel)]="userModel.senha">
+
+        <!-- <p *ngIf="userModel.email != '' ">Existe email</p> -->
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>

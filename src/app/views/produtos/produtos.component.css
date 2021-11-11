@@ -60,7 +60,12 @@
 
 .produtos-cont {
     background-color: black;
-    height: 1200px;
+    height: 1600px;
+}
+
+#espaco-produtos {
+    margin-left: 416px;
+    margin-right: 415px;
 }
 
 .produto-item {

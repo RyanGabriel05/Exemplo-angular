@@ -1,0 +1,75 @@
+.login-cadastro {
+    background-color: black;
+    height: 300px;
+}
+
+.login-cadastro h2 {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 30px;  
+}
+
+form.ng-untouched {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form.ng-untouched > button:nth-child(6) {
+    margin-top: 20px;
+}
+
+form.ng-untouched > h2:nth-child(1) {
+    margin-top: 40.9px;
+    margin-bottom: 40.9px;
+}
+
+form.ng-untouched > label:nth-child(2) {
+    color: white;
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+form.ng-untouched > label:nth-child(4) {
+    color: white;
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+form.ng-valid {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form.ng-valid > h2:nth-child(1) {
+    margin-top: 40.9px;
+    margin-bottom: 40.9px;
+}
+
+form.ng-pristine > button:nth-child(6) {
+    margin-top: 20px;
+}
+
+form.ng-valid > button:nth-child(6) {
+    margin-top: 20px;
+}
+
+form.ng-valid > label:nth-child(2) {
+    color: white;
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+form.ng-valid > label:nth-child(4) {
+    color: white;
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: bold;
+}

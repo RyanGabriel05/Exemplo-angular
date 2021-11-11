@@ -1,0 +1,39 @@
+/* MENU */
+header {
+    background-color: #098D97;
+    height: 140px;
+}
+
+.container-grid {
+    max-width: 1920px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.posicionamento-header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 20px;   
+}
+
+.barras {
+    width: 30px;
+    display: none;
+}

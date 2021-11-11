@@ -5,16 +5,26 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProdutosComponent } from './views/produtos/produtos.component';
 import { HomeComponent } from './views/home/home.component';
+import { SobreComponent } from './views/sobre/sobre.component';
+import { LoginComponent } from './views/login/login.component';
+import { FormsModule } from '@angular/forms';
+import { HeaderComponent } from './views/header/header.component';
+import { FooterComponent } from './views/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProdutosComponent,
-    HomeComponent
+    HomeComponent,
+    SobreComponent,
+    LoginComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
