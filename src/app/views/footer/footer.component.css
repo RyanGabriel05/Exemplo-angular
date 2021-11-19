@@ -52,3 +52,96 @@
 .redes h3 {
     padding-left: 70px;
 }
+
+@media screen and (max-width:1920px) {
+    
+    /* .menu {
+        width: 480px;
+    }
+    
+    .menu a{
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 200px;
+        height: 150px;
+    }
+    */
+}
+
+@media screen and (max-width:768px) {
+ 
+    /* RODAPE */
+    
+
+    .footer {
+        height: 240px;
+    }
+
+    .atendimento {
+        padding-left: 50px;
+        font-size: 16px;
+    }
+        
+    .email {
+        padding-right: 50px;
+        padding-left: 40px;
+        padding-top: 40px;
+        font-size: 16px;
+    }
+        
+    .redes {
+        margin-top: -60px;
+        padding-left: 40px;
+        font-size: 16px;
+    }
+
+}
+    
+
+@media screen and (max-width:320px) {
+    /* RODAPE */
+
+    .footer{
+        height: 340px;
+    }
+
+    .footer h3 {
+        align-items: center;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .footer p {
+        align-items: center;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .atendimento{
+        padding-right: 35px;
+        padding-left: 55px;
+    }
+
+    .redes {
+        padding-left: 50px;
+        margin-top: -50px;
+    }
+
+    .redes h3 {
+        padding-left: 85px;
+    }
+
+    .email {
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-left: 55px;
+        padding-bottom: 0px;
+    }
+    
+    .redes > h3:nth-child(1) {
+        padding-left: 85px;
+    }
+
+}

@@ -1,13 +1,14 @@
 
 <!-- BANNER-BG -->
-<div class="banner">
+
+<!-- <div class="banner">
     <div class="container-grid itens-banner">
         <div class="texto-banner">
             <h1>Venha montar seu computador na melhor loja!</h1>
         </div>
     </div>
-</div>
- 
+</div>  -->
+
 <!-- LOGIN -->
 <div class="login-cadastro">
     <form #userForm="ngForm" (ngSubmit)="onSubmit()">
@@ -17,6 +18,18 @@
     
         <label for="senha">Senha: </label>
         <input type="password" id="senha" name="senha" [(ngModel)]="userModel.senha">
+
+        <!-- <p *ngIf="userModel.email != '' ">Existe email</p> -->
+
+        <button type="submit">Enviar</button>
+    </form>
+    <form>
+        <h2>Login</h2>
+        <label for="email">Email: </label>
+        <input type="email" name="email">
+    
+        <label for="senha">Senha: </label>
+        <input type="password" name="senha">
 
         <!-- <p *ngIf="userModel.email != '' ">Existe email</p> -->
 

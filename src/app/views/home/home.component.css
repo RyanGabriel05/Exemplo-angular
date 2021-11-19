@@ -47,8 +47,8 @@ header {
 
 /* BANNER */
 
-.banner {
-    /* background-image: url(../img/banner.png); */
+/* .banner {
+    background-image: url(src\assets\img\banner.png);
     height: 290px;
     background-repeat: no-repeat;
     background-position: center;
@@ -70,7 +70,8 @@ header {
     font-family: "Arial";
     font-weight: bold;
     font-size: 20px;    
-}
+} */
+   
  /* PRODUTOS */
  
  .secao-produtos {
@@ -146,5 +147,99 @@ header {
 .clientes1 {
     padding-right: 150px;
 }
+
+@media screen and (max-width:1920px) {
+    
+    /* .menu {
+        width: 480px;
+    }
+    
+    .menu a{
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 200px;
+        height: 150px;
+    }
+    */
+}
+
+@media screen and (max-width:768px) {
+
+    /* PRODUTOS */
+    
+    .secao-produtos {
+        height: 810px;
+    }
+
+    .secao-produtos h1 {
+        font-size: 30px;
+    }
+
+    .produtos-flex {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 126px;
+        padding-right: 126px;
+    }
+
+    .produto-item {
+        width: 250px;
+        height: 200px;
+    }
+
+    /* CLIENTES */
+    
+    .secao-clientes {
+        height: 420px;
+    }
+
+    .clientes h1 {
+        font-size: 30px;
+    }
+  
+    .clientes1 {
+        padding-right: 30px;
+        width: 250px;
+        height: 200px;  
+        padding-left: 0px;      
+        
+    }
+    
+    .clientes2 {
+        width: 220px;
+        height: 200px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+}
+    
+
+@media screen and (max-width:320px) {
+    /* PRODUTOS */
+    
+    .secao-produtos {
+        height: 1350px;
+    }
+
+    .secao-produtos h1 {
+        font-size: 20px;
+    }
+
+    .produtos-flex {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    /* CLIENTES */
+
+    .secao-clientes {
+        display: none;
+    }
+
+}
+
 
 

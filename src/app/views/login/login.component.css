@@ -1,7 +1,47 @@
+/* BANNER */
+
+/* .banner {
+    background-image: url(src\assets\img\banner.png);
+    height: 290px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    margin-left: -20px;
+}
+
+.itens-banner {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.texto-banner {
+    text-align: center;
+    width: 1900px;
+    color: white;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 20px;    
+} */
+
+/* CADASTRO */
+
 .login-cadastro {
     background-color: black;
     height: 300px;
+    display: flex;
+    justify-content: center;
 }
+
+form.ng-untouched:nth-child(1) > button:nth-child(6) {
+    margin-bottom: 20px;
+}
+
+form.ng-untouched:nth-child(2) > button:nth-child(6) {
+    margin-bottom: 20px;
+}
+
 
 .login-cadastro h2 {
     color: white;
@@ -72,4 +112,59 @@ form.ng-valid > label:nth-child(4) {
     font-size: 20px;
     font-family: "Arial";
     font-weight: bold;
+}
+
+form.ng-untouched:nth-child(2) {
+    margin-left: 100px;
+}
+
+form.ng-valid:nth-child(1) > button:nth-child(6) {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:1920px) {
+    
+    /* .menu {
+        width: 480px;
+    }
+    
+    .menu a{
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 200px;
+        height: 150px;
+    }
+    */
+}
+
+@media screen and (max-width:768px) {
+    /* LOGIN/CADASTRO */
+    
+}
+    
+
+@media screen and (max-width:320px) {
+
+    /* LOGIN/CADASTRO */
+
+    
+
+    .login-cadastro {
+        height: 530px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    form.ng-untouched:nth-child(2) > input:nth-child(3) {
+        width: 216px;
+    }
+    
+    form.ng-untouched:nth-child(2) {
+    margin-left: 0px;
+    width: 216px;
+    }
+    
 }

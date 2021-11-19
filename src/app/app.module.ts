@@ -10,6 +10,7 @@ import { LoginComponent } from './views/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './views/header/header.component';
 import { FooterComponent } from './views/footer/footer.component';
+import { BannerComponent } from './views/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +21,12 @@ import { FooterComponent } from './views/footer/footer.component';
     LoginComponent,
     HeaderComponent,
     FooterComponent,
+    BannerComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,  
   ],
   providers: [],
   bootstrap: [AppComponent]

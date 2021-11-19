@@ -37,3 +37,104 @@ header {
     width: 30px;
     display: none;
 }
+
+@media screen and (max-width:1920px) {
+    
+    /* .menu {
+        width: 480px;
+    }
+    
+    .menu a{
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 200px;
+        height: 150px;
+    }
+    */
+}
+
+@media screen and (max-width:768px) {
+
+    /* MENU */
+
+    header {
+        height: 216px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #menu {
+        flex-direction: column;
+        width: 200px;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        right: 65px;
+    }
+
+    .menu a {
+        text-align: center;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+
+    .posicionamento-header {
+        position: relative;
+    }
+    
+    .menu-ativo {
+        display: flex;
+    }
+
+    .barras {
+        display: inline-block;
+    }
+
+}
+    
+
+@media screen and (max-width:320px) {
+    /* MENU */
+
+    header {
+        height: 180px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #menu {
+        flex-direction: column;
+        width: 115px;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        right: 40px;
+    }
+
+    .menu a {
+        text-align: center;
+        padding: 15px;
+        font-size: 10px; 
+
+    }
+
+    .posicionamento-header {
+        position: relative;
+    }
+    
+    .menu-ativo {
+        display: flex;
+    }
+
+    .barras {
+        display: inline-block;
+    }
+
+}

@@ -1,3 +1,30 @@
+/* BANNER */
+
+/* .banner {
+    background-image: url(src\assets\img\banner.png);
+    height: 290px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    margin-left: -20px;
+}
+
+.itens-banner {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.texto-banner {
+    text-align: center;
+    width: 1900px;
+    color: white;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 20px;    
+} */
+
 /* SOBRE */
 
 .sobre-grid {
@@ -43,4 +70,64 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 100px;
+}
+
+@media screen and (max-width:1920px) {
+    
+    /* .menu {
+        width: 480px;
+    }
+    
+    .menu a{
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 200px;
+        height: 150px;
+    }
+    */
+}
+
+@media screen and (max-width:768px) {
+    /* SOBRE */
+    
+    .sobre-grid {
+        height: 840px;
+    }
+    
+    .sobre h3 {
+        font-size: 30px;
+    }
+    
+    .Politica-qualidade h3 {
+        font-size: 30px;
+    }   
+}
+    
+
+@media screen and (max-width:320px) {
+
+    /* SOBRE */
+
+    .sobre-grid {
+        height: 1000px
+    }
+
+    .sobre h3 {
+        font-size: 30px;
+    }
+
+    .sobre p {
+        font-size: 10px;
+    }
+    
+    .Politica-qualidade h3 {
+        font-size: 20px;
+    }
+
+    .Politica-qualidade p {
+        font-size: 10px;
+    }
+
 }
