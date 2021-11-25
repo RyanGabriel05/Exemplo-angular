@@ -11,7 +11,7 @@
 
 <!-- LOGIN -->
 <div class="login-cadastro">
-    <form #userForm="ngForm" (ngSubmit)="onSubmit()">
+        <form #userForm="ngForm" (ngSubmit)="onSubmit()">
         <h2>Cadastre-se</h2>
         <label for="email">Email: </label>
         <input type="email" id="email" name="email" [(ngModel)]="userModel.email">

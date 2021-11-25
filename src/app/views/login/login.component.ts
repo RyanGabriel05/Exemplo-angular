@@ -13,8 +13,8 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
- userModel = new User("", "")
-
+  userModel = new User("", "")
+  
   onSubmit() {
     console.log(this.userModel)
   }

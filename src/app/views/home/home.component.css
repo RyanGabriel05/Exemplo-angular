@@ -115,15 +115,106 @@ header {
     border-radius: 45px;
 }
 
+/* NOTICIAS */
+.noticias {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secao-noticias {
+    background-color:#098D97;
+    padding: 30px 0 ;
+}
+
+.secao-noticias .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco-noticias > h2:nth-child(1) {
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.bloco-noticias{
+    width: 70%;
+    height: 90%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-left: 257px;
+    margin-right: 257px;
+    padding: 30px 30px;
+}
+
+.bloco-noticias h2 {
+    font-size: 25px;
+}
+
+.content-news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.cardnews {
+    /* width: 15em;
+    height: 22.5em; */
+    width: 18em;
+    height: 32.5em; 
+    background: var(--gradient);
+    color: black;
+    margin-bottom: 2em;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0),0px 0px 30px rgb(0, 0, 0);
+}
+
+.texto-card {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.texto-card a {
+    background-color:white;
+    padding: 8px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 4px; 
+}
+
+.cardnews img {
+    width: 100%;
+}
+
+.cardnews h3{
+    padding-top: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.cardnews p{
+    font-size: 16px;
+}
+
+
 /* CLIENTES */
 
 .secao-clientes {
     width: 1920;
     height: 700px;
+    background-color: black;
 }
 
 .secao-clientes h1 {
-    color: black;
+    color: white;
     text-align: center;
     text-transform: uppercase;
     padding-top: 50px;
@@ -189,6 +280,26 @@ header {
         height: 200px;
     }
 
+    /* NOTICIAS */
+
+    .bloco-noticias {
+        margin-left: 105px;
+        margin-right: 105px;
+    }
+    
+    .cardnews {
+        width: 13em;
+    }
+
+    .texto-card {
+        margin-top: 50px;
+    }
+
+    .bloco-noticias {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     /* CLIENTES */
     
     .secao-clientes {
@@ -231,6 +342,25 @@ header {
     .produtos-flex {
         padding-left: 35px;
         padding-right: 35px;
+    }
+
+    /* NOTICIAS */
+
+    .secao-noticias {
+        background-color: white;  
+    }
+
+    .bloco-noticias {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .bloco-noticias > h2:nth-child(1) {      
+        color: black;
+    }
+
+    .texto-card a {
+        background-color: #098D97;
     }
 
     /* CLIENTES */

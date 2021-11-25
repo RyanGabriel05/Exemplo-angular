@@ -1,0 +1,35 @@
+{
+  "noticias": [
+    {
+      "titulo": "Jogo Wronged Us é anunciado para PC e consoles",
+      "descricao": "Wrong Us é o mais novo jogo de terror e sobrevivência em terceira pessoa anunciado pela desenvolvedora independente Delusional Studio. Anunciado na última quarta-feira, o jogo já recebeu um vídeo de gameplay e foi confirmado para os consoles e PC só para 2023.",
+      "id": 1
+    },
+    {
+      "titulo": "Netflix investe mais em seu segmento de games com nova contratação",
+      "descricao": "A Netflix já deixou evidente que pretende levar a sério sua recente incursão no mundo dos games. A empresa começou a distribuir títulos em algumas regiões para seus assinantes, e agora anuncia um novo investimento na forma de uma grande contratação.",
+      "id": 2
+    },
+    {
+      "titulo": "Roblox processa YouTuber e pede US$ 1,6 milhão de indenização",
+      "descricao": "A Roblox Corporation está finalmente levando o YouTuber Benjamin “Ruben Sim” Simon para os tribunais. A empresa acusa o criador de conteúdo de vir atacando seus jogadores e funcionários há anos. Um processo contra o rapaz foi enviado para um tribunal da Califórnia, nos Estados Unidos.",
+      "id": 3
+    },
+    {
+      "titulo": "Street Fighter 6 pode ser revelado em 2022, indicam devs",
+      "descricao": "A Capcom publicou ontem, dia 23 de novembro, postou em seu blog oficial falando de Luke, o último personagem adicional para Street Fighter V. Falando do update e do lutador, os desenvolvedores deram a entender que o próximo jogo, Street Fighter 6 será revelado em 2022.",
+      "id": 4
+    },
+    {
+      "titulo": "Resident Evil 4 VR vai receber modo Mercernaries em 2022",
+      "descricao": "O modo Mercenaries tem marcado presença em diversos games da série Resident Evil, e com Resident Evil 4 VR as coisas não seriam diferentes. Por conta disso, foi revelado que o título para Oculus vai ganhar essa modalidade em algum momento de 2022.",
+      "id": 5
+    },
+    {
+      "titulo": "Dell G15 e Alienware m15: como escolher seu notebook gamer?",
+      "descricao": "A Black Friday 2021 está chegando. Os notebooks dedicados para jogos estão entre os mais desejados pela comunidade gamer, pois são máquinas que aliam o alto poder de suas especificações técnicas com a portabilidade do segmento de laptops.",
+      "id": 6
+    }
+  ],
+  "Usuarios": []
+}

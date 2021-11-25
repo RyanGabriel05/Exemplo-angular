@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Noticia } from 'src/app/models/noticia';
+import { NoticiaService } from 'src/app/services/noticia.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  listaNoticias = [] as Noticia[];
+
+  constructor(private noticiaService: NoticiaService) { }
 
   ngOnInit(): void {
+    this.carregarNoticias();
   }
 
+  carregarNoticias() {
+    this.noticiaService.getNoticias().subscribe( (noticiasRecebidas: Noticia[]) => {
+      this.listaNoticias = noticiasRecebidas
+      console.log(this.listaNoticias)
+    })
+  }
 }
