@@ -167,7 +167,7 @@ header {
 .cardnews {
     /* width: 15em;
     height: 22.5em; */
-    width: 18em;
+    width: 22em;
     height: 32.5em; 
     background: var(--gradient);
     color: black;
@@ -289,10 +289,12 @@ header {
     
     .cardnews {
         width: 13em;
+        height: 41.5em;
     }
 
     .texto-card {
-        margin-top: 50px;
+        margin-top: 85px;
+        
     }
 
     .bloco-noticias {
