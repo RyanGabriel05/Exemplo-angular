@@ -1,4 +1,11 @@
 {
+  "users": [
+    {
+      "email": "ryan@mail.com",
+      "password": "$2a$10$TxCFSdZpQj/R1v67hNLOruv.tQ4i1qD4Zt3ZZsIZLeeTjNbxPLyIO",
+      "id": 1
+    }
+  ],
   "noticias": [
     {
       "titulo": "Jogo Wronged Us é anunciado para PC e consoles",
@@ -30,6 +37,5 @@
       "descricao": "A Black Friday 2021 está chegando. Os notebooks dedicados para jogos estão entre os mais desejados pela comunidade gamer, pois são máquinas que aliam o alto poder de suas especificações técnicas com a portabilidade do segmento de laptops.",
       "id": 6
     }
-  ],
-  "Usuarios": []
+  ]
 }
