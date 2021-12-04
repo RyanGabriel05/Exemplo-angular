@@ -19,27 +19,37 @@ export class LoginComponent implements OnInit {
 
   mensagem = "";
 
-  UsuarioCadastro = new User();
-  mensagemCadastro = "";
+  // UsuarioCadastro = new User();
+  // mensagemCadastro = "";
+
   
   onSubmit() {
+
+    console.log("Modelo", this.userModel)
+
+    const listaPalavras: string[] = ["select ", "from ", "drop ", "or ", "having ", "group ", "by ", "insert ", "exec ", "\"", "\'", "--", "#", "*", ";"]
+
+    listaPalavras.forEach(palavra => {
+      if(this.userModel.email.toLowerCase().includes(palavra)) {
+        this.mensagem = "Dados inválidos: " + palavra
+
+        return;
+      }
+    });
+
     this.loginService.login(this.userModel).subscribe( (response) => {
       this.mensagem = "login com sucesso!";
       this.router.navigateByUrl("/");
     }, (error) => {
-      console.log(error)
       this.mensagem = error.error;
     } )
+
+    // onSubmitCadastro(): void {
+    //   this.loginService.cadastrar(this.UsuarioCadastro).subscribe( (response) => {
+    //     this.mensagemCadastro = "Cadastro feito com sucesso!";
+    //   }, (error) => {
+    //       this.mensagemCadastro = error.error
+    //   } )
+    // }
   }
-   
-  // onSubmitCadastro(): void {
-  //   this.loginService.cadastrar(this.UsuarioCadastro).subscribe( (response) => {
-  //     this.mensagemCadastro = "Cadastro feito com sucesso!";
-  //   }, (error) => {
-  //       this.mensagemCadastro = error.error
-  //   } )
-  // }
-
-
-
 }
